@@ -31,23 +31,64 @@ body {
   font-family: var(--Font-family);
   font-size: var(--Font-size);
   font-weight: var(--Weight-400);
-  /* color: var(--Grey-700);
-  background-color: var(--White); */
+  background-color: var(--Grey-900); 
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .card {
-  flex: 0 0 300px;
-  width: 300px;
+  flex: 0 0 325px;
+  justify-content: space-between;
+  align-items: center;
   padding: 20px;
+  background-color: var(--Grey-800);
+  color: var(--White);  
   border-radius: 10px;
   box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
+}
+
+.profile__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile__image-avatar {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.profile__info {
+  text-align: center;
+  padding: 10px;
+}
+
+div p.profile__country{
+  font-weight: var(--Weight-600);
+  color: var(--Green);
+  margin: 10px;
+  padding-bottom: 20px;
+}
+
+.social-links a {
+  display: grid;
+  text-align: center;
+  background-color: var(--Grey-700);
+  color: var(--White);
+  font-weight: var(--Weight-600);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.social-links a:hover {
+  background-color: var(--Green);
+  color: var(--Grey-900);
 }
 
 /* <!-- Feel free to remove these styles or customise in your own stylesheet 👍 --> */
