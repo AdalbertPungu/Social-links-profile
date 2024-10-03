@@ -78,6 +78,7 @@ div p.profile__country{
 .social-links a {
   display: grid;
   text-align: center;
+  text-decoration: none;
   background-color: var(--Grey-700);
   color: var(--White);
   font-weight: var(--Weight-600);
