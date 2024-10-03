@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Inter', sans-serif;
+  src: url('../fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+:root {
+  /* Colors */
+  --Green: hsl(75, 94%, 57%);
+  --White: hsl(0, 0%, 100%);
+  --Grey-700: hsl(0, 0%, 20%);
+  --Grey-800: hsl(0, 0%, 12%);
+  --Grey-900: hsl(0, 0%, 8%);
+
+  /* Typography Body paragraph */
+  --Font-size: 14px;
+
+  /* Font */
+  --Font-family: "Inter", sans-serif;
+  --Weight-400: 400;
+  --Weight-600: 600;
+  --Weight-700: 700;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--Font-family);
+  font-size: var(--Font-size);
+  font-weight: var(--Weight-400);
+  /* color: var(--Grey-700);
+  background-color: var(--White); */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  flex: 0 0 300px;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
+}
+
+/* <!-- Feel free to remove these styles or customise in your own stylesheet 👍 --> */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
